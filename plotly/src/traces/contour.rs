@@ -53,7 +53,7 @@ pub struct Contours {
     r#type: Option<ContoursType>,
     start: Option<f64>,
     end: Option<f64>,
-    size: Option<usize>,
+    size: Option<f64>,
     coloring: Option<Coloring>,
     #[serde(rename = "showlines")]
     show_lines: Option<bool>,
